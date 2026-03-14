@@ -4,6 +4,7 @@ Meta-repo that pins a set of upstream projects used for **chicken detection / se
 
 ## What’s inside
 
+- `autoresearch/`: automated research loop for rapid ML experiments (upstream: `karpathy/autoresearch`)
 - `chicken-detection-labelme-format/`: utilities + dataset in LabelMe format (upstream: `abdshomad/chicken-detection-labelme-format`)
 - `ultralytics/`: YOLO training/inference toolkit (upstream: `ultralytics/ultralytics`)
 - `rf-detr/`: Roboflow DETR implementation (upstream: `roboflow/rf-detr`)
@@ -34,6 +35,7 @@ git submodule update --remote --recursive
 
 ## Notes
 
+- For Autoresearch usage, see `autoresearch/README.md` (it has the canonical setup + run instructions).
 - Each submodule has its own install/run instructions—see the `README` in each directory.
 - This repo does not currently include a single “runner” script; it primarily serves as a **reproducible checkout** of these upstream dependencies.
 
